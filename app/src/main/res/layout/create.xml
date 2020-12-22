@@ -1,0 +1,53 @@
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical">
+	<LinearLayout
+		android:id="@+id/linear4"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:padding="8dp"
+		android:background="#FFFFFF"
+		android:orientation="vertical">
+		<ImageView
+			android:id="@+id/imageview1"
+			android:layout_width="280dp"
+			android:layout_height="180dp"
+			android:src="@drawable/add_note_illustration"
+			android:scaleType="fitXY"
+			android:layout_gravity="center_horizontal|center_vertical"/>
+	</LinearLayout>
+	<LinearLayout
+		android:id="@+id/linear3"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:padding="8dp"
+		android:background="#2196F3"
+		android:orientation="horizontal">
+		<EditText
+			android:id="@+id/edittext3"
+			android:layout_width="match_parent"
+			android:layout_height="240dp"
+			android:padding="8dp"
+			android:background="#FFFFFF"
+			android:textSize="18sp"
+			android:textColor="#000000"
+			android:hint="Note Description "
+			android:textColorHint="#607D8B"/>
+	</LinearLayout>
+	<Button
+		android:id="@+id/button1"
+		android:layout_width="180dp"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="20dp"
+		android:padding="17dp"
+		android:background="#2196F3"
+		android:gravity="center_horizontal|center_vertical"
+		android:text="Create Note +"
+		android:textSize="14sp"
+		android:textColor="#FFFFFF"
+		android:layout_gravity="center_horizontal|center_vertical"/>
+</LinearLayout>
